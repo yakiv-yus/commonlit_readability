@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
-file_path = "../data/train.csv"
+file_path = "./train.csv"
 df_train = pd.read_csv(file_path)
 X_train, X_test, y_train, y_test = train_test_split(df_train.excerpt, df_train.target, test_size=0.33, random_state=42)
 
