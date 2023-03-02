@@ -1,12 +1,15 @@
 # CommonLit Readability
-Task: https://www.kaggle.com/c/commonlitreadabilityprize/overview
+Dataset description: https://www.kaggle.com/c/commonlitreadabilityprize/overview
 
 
+## model.py >>
 
-lin_reg_baseline_model.py output:
+- trained model and transformers are saved as "model.pkl" and "text_transformer.pkl" respectively
+- model metrics:
 
-
-
-RMSE Train:  6.653020398977045e-08
-
-RMSE Test:  0.7079239530919533
+    RMSE Train:  6.653020398977045e-08
+    
+    RMSE Test:  0.7079239530919533
+    
+## server.py >>
+API server for the trained model
